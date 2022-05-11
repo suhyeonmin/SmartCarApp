@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/board_main_item_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="작성자 닉네임" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/board_main_item_write_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="작성 날짜" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/board_main_item_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="제목입니다"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+</LinearLayout>
